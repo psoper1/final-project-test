@@ -6,7 +6,11 @@ function About() {
         <>
         <Nav />
         <Logo />
-        <h1>About Site</h1>
+        <h2 className="text-center">About Us</h2>
+        <div className="container">
+        <h3 className="text-center">Bookapedia is a website that allows you to search through the vast amount of books from the Google Books API. Traverse a fresh, modern UI,
+        find books to purchase and save books to your wishlist for later!</h3>
+        </div>
         </>
     )
 }

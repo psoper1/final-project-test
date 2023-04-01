@@ -8,6 +8,10 @@ function Nav() {
                     <NavLink to="/" className="nav-link active">Bookapedia Home</NavLink>
                     <div className="nav justify-content-end navbar-collapse" id="navbarNavAltMarkup">
                         <ul className="navbar-nav">
+                        <li className="nav-item">
+                            {/* Will check if they are logged in, if not, will route user to the Log in page */}
+                                <NavLink to="/books-I-want" className="nav-link">Books I Want</NavLink>
+                            </li>
                             <li className="nav-item">
                                 <NavLink to="/about" className="nav-link">About</NavLink>
                             </li>
