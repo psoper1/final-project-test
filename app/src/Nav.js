@@ -5,7 +5,7 @@ function Nav() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <NavLink to="/" className="nav-link active">Bookapedia</NavLink>
+                    <NavLink to="/" className="nav-link active">Bookapedia Home</NavLink>
                     <div className="nav justify-content-center navbar-collapse" id="navbarNavAltMarkup">
                         <ul className="navbar-nav">
                             <li className="nav-item">
