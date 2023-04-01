@@ -1,0 +1,27 @@
+.inputField {
+    width: 50%;
+    margin-left: 22%;
+}
+
+#bg {
+    background-color: #e0af89;
+}
+
+.navbar {
+    background-color: #FFF2CC;
+}
+
+.btn {
+    background-color: #FFF2CC;
+    color: #000000;
+  }
+
+.btn:hover {
+    color: teal;
+    background-color: #FFD966;
+    border-color: #FFF2CC;
+  }
+
+  .results {
+    border:1px solid black;
+  }
