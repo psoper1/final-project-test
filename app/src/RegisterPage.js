@@ -21,7 +21,7 @@ function RegisterPage() {
 
                                 <form id="formstyle">
 
-                                    <h3 id="h3style" className="fw-normal mb-3 pb-3">Log in</h3>
+                                    <h3 id="h3style" className="fw-normal mb-3 pb-3">Register</h3>
 
                                     <div className="form-outline mb-4">
                                         <input type="email" id="form2Example18" className="form-control form-control-lg" />
@@ -38,6 +38,7 @@ function RegisterPage() {
                                     </div>
 
                                     <div className="pt-1 mb-4">
+                                        {/* After clicking Sign up and the account gets created, route the user to the home page */}
                                         <button className="btn btn-info btn-lg btn-block" type="button">Sign Up</button>
                                     </div>
 
