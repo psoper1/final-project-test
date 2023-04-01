@@ -9,6 +9,11 @@
 
 .navbar {
     background-color: #FFF2CC;
+    position: absolute;
+    width: 100%;
+    line-height: 25px;
+    position: sticky;
+    top: 0px;
 }
 
 .btn {
@@ -25,3 +30,35 @@
   .results {
     border:1px solid black;
   }
+
+  .bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+
+    .fas {
+        color: #709085
+    }
+
+    #formstyle {
+        width: 23rem;
+        margin-bottom: 36%;
+        margin-left: 28%;
+    }
+
+    #h3style {
+        letter-spacing: 1px;
+    }
+
+    #loginimage {
+        object-fit: cover; object-position: left;
+    }

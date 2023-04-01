@@ -12,7 +12,7 @@ function Nav() {
                                 <NavLink to="/about" className="nav-link">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link">Log in</NavLink>
+                                <NavLink to="/login" className="nav-link">Log in</NavLink>
                             </li>
                         </ul>
                     </div>
